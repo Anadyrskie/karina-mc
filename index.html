@@ -1,0 +1,159 @@
+<!-- Proudly coded by Billy (https://bybilly.uk) -->
+<!-- Version: 1.2 -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KarinaCraft</title>
+	<meta name="description" content="KarinaCraft">
+	<meta name="keywords" content="MyServer, karina.anadyr.us, Minecraft Server, Minecraft, Fun, Play, Portal, Website, Official">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<script src="https://use.fontawesome.com/30155533f0.js"></script>
+	<script type="text/javascript">
+		function mobile() {
+			var bars = document.getElementById("mnav");
+			if(bars.className === "mnav") {
+				bars.className += " responsive";
+			} else {
+				bars.className = "mnav";
+			}
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<div class="nav">
+			<ul class="nav-items" id="nav-items">
+				<a><li onclick="mobile()" class="icon fa fa-bars fa-2x"></li></a>
+				<a href="#main"><li class="h">
+					<div class="overlay"></div>
+					Home
+				</li></a>
+				<a href="#"><li class="h">
+					<div class="overlay"></div>
+					Forums
+				</li></a>
+				<div class="log"><img alt="Logo" class="logo" src="img/logo.png"></div>
+				<a href="#games"><li class="h">
+					<div class="overlay"></div>
+					Games
+				</li></a>
+				<a href="#contact"><li class="h">
+					<div class="overlay"></div>
+					Contact Us
+				</li></a>
+			</ul>
+			<div class="mnav" id="mnav">
+				<a href="#main"><li class="i">
+					Home
+				</li></a>
+				<a href="#"><li class="i">
+					Forums
+				</li></a>
+				<a href="#games"><li class="i">
+					Games
+				</li></a>
+				<a href="#contact"><li class="i">
+					Contact Us
+				</li></a>
+			</div>
+		</div>
+
+		<div class="hero" id="main">
+			<h1>Welcome to KarinaCraft</h1>
+			<!-- Replace play.myserver.net with your IP address -->
+			<!-- Do it for both examples below -->
+			<!-- Please set both your IP and port -->
+			<p class="info">Join <span class="sip" data-ip="karina.anadyr.us" data-port="25565">
+                0</span> other players on <span class="ip">karina.anadyr.us</span></p>
+		</div>
+	</header>
+	<div class="main">
+		<div id="description">
+			<div>
+				<i class="fa fa-rocket fa-4x"></i>
+				<span>
+					<h3>OUR HISTORY</h3>
+                    <p>Karina asked me to host a server; this is just a landing page for the unfortunate.</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-user fa-4x"></i>
+				<span>
+					<h3>OUR STAFF</h3>
+                    <p>Literally just me. If theres an issue, but Karina, and she'll bug me.</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-server fa-4x"></i>
+				<span>
+					<h3>OUR SERVERS</h3>
+                    <p>A sad tower hiding in a corner; its basically just for VPNs, DNS updating, and maybe a webserver or two.</p>
+				</span>
+			</div>
+		</div>
+		<div id="games">
+			<h2>OUR GAMES</h2>
+			<div class="game e">
+				<div>
+					<h3>Vanilla</h3>
+                    <p>Literally just Minecraft. Play with your friends! Build things! Mine.. or something - I don't care, just don't crash it.</p>
+				</div>
+				<img alt="MyServer SkyBlock Server" class="gimg a" src="img/skyblock.png">
+			</div>
+
+			
+
+		</div>
+		<div id="staff">
+			<div class="staff">
+				<h2>OUR TEAM</h2>
+				<div class="staff-team">
+					<div>
+						<h3>The Deer</h3>
+						<div class="owner">Owner</div>
+						<img alt="MyServer Staff Member" src="img/hurr-dyr.png">
+					</div>
+
+					<div>
+						<h3>Karina</h3>
+						<div class="owner">Owner</div>
+						<img alt="MyServer Staff Member" src="img/inconceivable.gif">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="announcement">
+			<div class="an-img">
+				<h2>NEWS & ANNOUNCEMENTS</h2>
+				<p class="an-t">
+					<b>It works?</b>
+					<br><br>
+                    INSANE! I CAN'T BELIEVE IT WORKED! Look Mom, I'm a sysadmin.
+					<br><br>
+					dont ddos me plehs
+					<br><br>
+					<a href="https://www.latlmes.com/tech/gotcha-1" class="btn">Read More</a>
+				</p>
+			</div>
+		</div>
+		<div id="contact">
+			<h2>CONTACT US</h2>
+            <p>Email - <a href="mailto:kcraft@anadyr.us">kcraft@anadyr.us</a></p>
+			<p>Discord - <a href="https://discordapp.com/invite/y0uRliNk">discordapp.com/invite/y0uRliNk</a></p>
+		</div>
+	</div>
+	<footer>
+		<img alt="MyServer Logo" src="img/logo.png">
+		<p>Copyright &copy; KarinaCraft 2020</p>
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
