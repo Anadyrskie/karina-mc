@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faffc72e-937f-493a-b602-1ebbb53d5efe" name="Default Changelist" comment="add java links">
-      <change afterPath="$PROJECT_DIR$/.idea/karina-mc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/install.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install.html" beforeDir="false" afterPath="$PROJECT_DIR$/install.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +68,16 @@
       <option name="presentableId" value="Default" />
       <updated>1601440220753</updated>
       <workItem from="1601440236574" duration="170000" />
-      <workItem from="1601500055207" duration="337000" />
+      <workItem from="1601500055207" duration="990000" />
     </task>
+    <task id="LOCAL-00001" summary="add java links">
+      <created>1601500552309</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601500552310</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +108,10 @@
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="208" y="23" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1601440300468" />
+    <state x="320" y="171" key="Vcs.Push.Dialog.v2" timestamp="1601500558952">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1601500558952" />
     <state x="518" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601440294864">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
