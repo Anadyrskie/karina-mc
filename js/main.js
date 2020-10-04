@@ -1,3 +1,4 @@
+
 // Do not mess with this file unless you know what you're doing :P
 
 $(document).on('click', 'a[href^="#"]', function (e) {
@@ -39,7 +40,9 @@ $(document).ready(()=>{
   $.get(`https://mcapi.us/server/status?ip=${ip}&port=${port}`, (result)=>{
     if (result.online) {
       $(".sip").html(result.players.now);
-    } else {
+    } else if (result.online===20) {
+		$(".playercount").html("Server Full")
+	} else {
       $(".playercount").html("Server isn't online!");
     }
   });
@@ -48,7 +51,9 @@ $(document).ready(()=>{
     $.get(`https://mcapi.us/server/status?ip=${ip}&port=${port}`, (result)=>{
       if (result.online) {
         $(".sip").html(result.players.now);
-      } else {
+      } else if (result.online===20) {
+      	$(".playercount").html("Server Full")
+	  } else {
         $(".playercount").html("Server isn't online!");
       }
     });
