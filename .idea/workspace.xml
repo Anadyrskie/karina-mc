@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faffc72e-937f-493a-b602-1ebbb53d5efe" name="Default Changelist" comment="use absolute links">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="faffc72e-937f-493a-b602-1ebbb53d5efe" name="Default Changelist" comment="fix rick roll" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +60,7 @@
       <workItem from="1601440236574" duration="170000" />
       <workItem from="1601500055207" duration="1096000" />
       <workItem from="1601663066014" duration="1995000" />
-      <workItem from="1601839517310" duration="620000" />
+      <workItem from="1601839517310" duration="805000" />
     </task>
     <task id="LOCAL-00001" summary="add java links">
       <created>1601500552309</created>
@@ -85,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601839842244</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix rick roll">
+      <created>1601840197654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601840197654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +112,8 @@
     <MESSAGE value="add java links" />
     <MESSAGE value="add java links for real this time" />
     <MESSAGE value="use absolute links" />
-    <option name="LAST_COMMIT_MESSAGE" value="use absolute links" />
+    <MESSAGE value="fix rick roll" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix rick roll" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601440280760">
@@ -118,10 +124,11 @@
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="458" y="185" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.813@0.23.1440.813" timestamp="1601663376671" />
-    <state x="120" y="143" width="1200" height="576" key="DiffContextDialog" timestamp="1601663388231">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state x="120" y="144" width="1200" height="582" key="DiffContextDialog" timestamp="1601840329678">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="120" y="143" width="1200" height="576" key="DiffContextDialog/0.23.1440.813@0.23.1440.813" timestamp="1601663388231" />
+    <state x="120" y="144" width="1200" height="582" key="DiffContextDialog/0.23.1440.821@0.23.1440.821" timestamp="1601840329678" />
     <state x="308" y="181" key="IDE.errors.dialog" timestamp="1601700915344">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
@@ -130,10 +137,10 @@
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="208" y="23" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1601440300468" />
-    <state x="320" y="171" key="Vcs.Push.Dialog.v2" timestamp="1601501229239">
+    <state x="320" y="171" key="Vcs.Push.Dialog.v2" timestamp="1601840208985">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1601501229239" />
+    <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1601840208985" />
     <state x="518" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601440294864">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
